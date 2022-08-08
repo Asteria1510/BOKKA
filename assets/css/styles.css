@@ -35,18 +35,18 @@ main {
   display: flex;
   justify-content: center;
   backdrop-filter: blur(0.1px);
-  background-color: rgba(236, 131, 11, 0.3);
+  background-color: rgba(109, 108, 106, 0.158);
 }
 
 .back__box div {
   margin: 100px 40px;
-  color: rgb(6, 33, 180);
+  color: rgb(243, 244, 250);
   transition: all 500ms;
 }
 
 .back__box div p,
 .back__box div button {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .back__box div h3 {
@@ -55,13 +55,13 @@ main {
 }
 
 .back__box button {
-  padding: 10px 40px;
+  padding: 10px 10px;
   border: 2px solid rgb(33, 9, 250);
   background: transparent;
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
-  color: rgb(33, 9, 250);
+  color: rgb(235, 234, 241);
   outline: none;
   transition: all 300ms;
 }
@@ -86,7 +86,7 @@ main {
 
 .container__login-register form {
   width: 100%;
-  padding: 80px 20px;
+  padding: 20px 20px;
   background: #fff;
   position: absolute;
   border-radius: 20px;
@@ -107,6 +107,7 @@ main {
   background: #b0c3eb;
   font-size: 16px;
   cursor: pointer;
+  border-radius: 10px;
   outline: none;
 }
 
@@ -117,6 +118,7 @@ main {
   font-size: 14px;
   background: #46a2fd;
   color: #fff;
+  border-radius: 10px;
   cursor: pointer;
   outline: none;
 }
